@@ -1,0 +1,26 @@
+ipykernel                # Jupyter kernel for Python
+jupyterlab               # JupyterLab interface
+datasets                 # Hugging Face Datasets library
+librosa                  # Audio processing library
+
+# =============================
+# PyTorch & Audio/Visual
+# =============================
+# torch                    # PyTorch (CPU version by default)
+# torchvision              # DO NOT install from PyPI. Use ROCm wheel only.
+# torchaudio               # PyTorch audio utilities
+
+# =============================
+# ROCm (AMD GPU) Support
+# =============================
+# For PyTorch ROCm 7.2.1, install with the following command (do NOT add to requirements.txt):
+# pip install --no-cache-dir `
+#     https://repo.radeon.com/rocm/windows/rocm-rel-7.2.1/rocm_sdk_core-7.2.1-py3-none-win_amd64.whl `
+#     https://repo.radeon.com/rocm/windows/rocm-rel-7.2.1/rocm_sdk_devel-7.2.1-py3-none-win_amd64.whl `
+#     https://repo.radeon.com/rocm/windows/rocm-rel-7.2.1/rocm_sdk_libraries_custom-7.2.1-py3-none-win_amd64.whl `
+#     https://repo.radeon.com/rocm/windows/rocm-rel-7.2.1/rocm-7.2.1.tar.gz
+
+# pip install --no-cache-dir `
+#     https://repo.radeon.com/rocm/windows/rocm-rel-7.2.1/torch-2.9.1%2Brocm7.2.1-cp312-cp312-win_amd64.whl `
+#     https://repo.radeon.com/rocm/windows/rocm-rel-7.2.1/torchaudio-2.9.1%2Brocm7.2.1-cp312-cp312-win_amd64.whl `
+#     https://repo.radeon.com/rocm/windows/rocm-rel-7.2.1/torchvision-0.24.1%2Brocm7.2.1-cp312-cp312-win_amd64.whl
