@@ -2,6 +2,9 @@ ipykernel                # Jupyter kernel for Python
 jupyterlab               # JupyterLab interface
 datasets                 # Hugging Face Datasets library
 librosa                  # Audio processing library
+matplotlib               # Plotting library
+
+
 
 # =============================
 # PyTorch & Audio/Visual
